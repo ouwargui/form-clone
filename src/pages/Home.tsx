@@ -29,6 +29,7 @@ const Home: React.FC = () => {
     >
       <UserHeader />
       <FlatList
+        scrollEnabled={false}
         keyExtractor={(item) => String(item.id)}
         numColumns={1}
         data={firtSection}
@@ -38,6 +39,7 @@ const Home: React.FC = () => {
         )}
       />
       <FlatList
+        scrollEnabled={false}
         style={{height: '30%'}}
         keyExtractor={(item) => String(item.id)}
         numColumns={1}
