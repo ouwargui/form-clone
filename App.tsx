@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import Routes from './routes/Routes';
+import Routes from './src/routes/Routes';
 import {StatusBar} from 'expo-status-bar';
 
 const App: React.FC = () => {

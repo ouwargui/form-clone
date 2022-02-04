@@ -48,7 +48,7 @@ const UserHeader: React.FC = () => {
       >
         <Image
           style={{width: '100%', height: '100%', borderRadius: 10}}
-          source={require('../assets/me.jpg')}
+          source={require('../../assets/me.jpg')}
         />
       </View>
       <View style={{marginLeft: '5%'}}>
